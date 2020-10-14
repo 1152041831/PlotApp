@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    xmlns:tools="http://schemas.android.com/tools"
+ >
+
+    <TextView
+        android:text="帮助界面"
+        android:textSize="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000fff"
+        />
+
+    <TextView
+        android:paddingTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="支持+、-、*、/、%、^(幂)\n支持一元加和一元减\n支持括号\n支持PI
+\n支持sin、cos、tg、ctg等三角函数"
+        android:textSize="20dp"
+        />
+
+</LinearLayout>
