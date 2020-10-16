@@ -19,10 +19,9 @@ public class MainActivity extends AppCompatActivity {
         setContentView(R.layout.activity_main);
         Toolbar toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
-
-
         final TextView txtFunction=(TextView)findViewById(R.id.txtFunction);
         final CustomView customView=(CustomView)findViewById(R.id.plotview);
+
         Button buttonPlot=(Button)findViewById(R.id.buttonPlot);
         buttonPlot.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -166,7 +165,6 @@ public class MainActivity extends AppCompatActivity {
         }
         return false;
     }
-
     public void exit(){
         System.exit(0);
     }
