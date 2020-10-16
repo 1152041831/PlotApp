@@ -1,4 +1,4 @@
-package cn.edu.bistu.cs.se.plotapp;
+package com.example.plotapp;
 
 import android.app.Application;
 import android.test.ApplicationTestCase;

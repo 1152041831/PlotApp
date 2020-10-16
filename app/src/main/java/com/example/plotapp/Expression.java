@@ -1,4 +1,4 @@
-package cn.edu.bistu.cs.se.plotapp;
+package com.example.plotapp;
 
 public class Expression {
 

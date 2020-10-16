@@ -1,10 +1,8 @@
-package cn.edu.bistu.cs.se.plotapp;
+package com.example.plotapp;
 
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
-import android.graphics.Point;
-import android.graphics.Rect;
 
 //函数绘图
 public class Plot {

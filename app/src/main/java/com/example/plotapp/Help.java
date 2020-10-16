@@ -1,4 +1,4 @@
-package cn.edu.bistu.cs.se.plotapp;
+package com.example.plotapp;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
