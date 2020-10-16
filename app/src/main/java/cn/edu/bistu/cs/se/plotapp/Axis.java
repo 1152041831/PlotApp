@@ -5,7 +5,7 @@ import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.Point;
 import android.graphics.Rect;
-
+//绘制坐标轴
 public class Axis {
 
     //逻辑范围
