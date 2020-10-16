@@ -11,18 +11,13 @@ public class CustomView extends View {
     public CustomView(Context context, AttributeSet attrs) {
         super(context, attrs);
     }
-
     public String getStrFunction() {
         return strFunction;
     }
-
     public void setStrFunction(String strFunction) {
         this.strFunction = strFunction;
     }
-
     String strFunction;
-
-
     @Override
     protected void onDraw(Canvas canvas) {
         if(strFunction==null || strFunction.length()==0)
@@ -32,14 +27,9 @@ public class CustomView extends View {
         rect.top=0;
         rect.right = getWidth();
         rect.bottom=getHeight();
-
         Axis axis=new Axis(rect);
-
-
         axis.draw(canvas);
         Plot plot=new Plot(axis,strFunction,"x");
         plot.draw(canvas);
-
-
     }
 }

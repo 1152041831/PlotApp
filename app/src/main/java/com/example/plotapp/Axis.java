@@ -103,11 +103,36 @@ public class Axis {
         canvas.drawText(nMinX+"", convertXLP2DP(nMinX+nX), convertYLP2DP(-nY), paint);//x最小
         canvas.drawText(nMaxX+"",convertXLP2DP(nMaxX-nX), convertYLP2DP(-nY),paint);//x最大
         canvas.drawText(nMinX/2+"", convertXLP2DP((nMinX+nX)/2), convertYLP2DP(-nY), paint);//x负半轴中间
+        canvas.drawText(-3+"", convertXLP2DP(-3), convertYLP2DP(-nY), paint);//x=-3
+        canvas.drawText(2+"", convertXLP2DP(2), convertYLP2DP(-nY), paint);//x=2
+        canvas.drawText(-2+"", convertXLP2DP(-2), convertYLP2DP(-nY), paint);//x=-2
+        canvas.drawText(3+"", convertXLP2DP(3), convertYLP2DP(-nY), paint);//x=3
+        canvas.drawText(7+"", convertXLP2DP(7), convertYLP2DP(-nY), paint);//x=7
+        canvas.drawText(8+"", convertXLP2DP(8), convertYLP2DP(-nY), paint);//x=8
+        canvas.drawText(6+"", convertXLP2DP(6), convertYLP2DP(-nY), paint);//x=6
+        canvas.drawText(-7+"", convertXLP2DP(-7), convertYLP2DP(-nY), paint);//x=-7
+        canvas.drawText(-8+"", convertXLP2DP(-8), convertYLP2DP(-nY), paint);//x=-8
+        canvas.drawText(-6+"", convertXLP2DP(-6), convertYLP2DP(-nY), paint);//x=-6
         canvas.drawText(nMaxX/2+"",convertXLP2DP((nMaxX-nX)/2), convertYLP2DP(-nY),paint);//x正半轴中间
         canvas.drawText(nMinY+"",convertXLP2DP(-nX), convertYLP2DP(nMinY+nY),paint);//y最小
         canvas.drawText(nMaxY+"",convertXLP2DP(-nX), convertYLP2DP(nMaxY-nY),paint);//y最大
         canvas.drawText(nMinY/2+"",convertXLP2DP(-nX), convertYLP2DP((nMinY+nY)/2),paint);//y轴负半轴中间
         canvas.drawText(nMaxY/2+"",convertXLP2DP(-nX), convertYLP2DP((nMaxY-nY)/2),paint);//y轴正半轴中间
+        canvas.drawText(3+"",convertXLP2DP(-nX), convertYLP2DP(3),paint);//y=3
+        canvas.drawText(-3+"",convertXLP2DP(-nX), convertYLP2DP(-3),paint);//y=-3
+        canvas.drawText(2+"",convertXLP2DP(-nX), convertYLP2DP(2),paint);//y=2
+        canvas.drawText(-2+"",convertXLP2DP(-nX), convertYLP2DP(-2),paint);//y=-2
+        canvas.drawText(7+"",convertXLP2DP(-nX), convertYLP2DP(7),paint);//y=7
+        canvas.drawText(8+"",convertXLP2DP(-nX), convertYLP2DP(8),paint);//y=8
+        canvas.drawText(6+"",convertXLP2DP(-nX), convertYLP2DP(6),paint);//y=6
+        canvas.drawText(-7+"",convertXLP2DP(-nX), convertYLP2DP(-7),paint);//y=-7
+        canvas.drawText(-8+"",convertXLP2DP(-nX), convertYLP2DP(-8),paint);//y=-8
+        canvas.drawText(-6+"",convertXLP2DP(-nX), convertYLP2DP(-6),paint);//y=-6
+
+
+
+
+
 
     }
 }
